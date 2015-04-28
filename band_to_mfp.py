@@ -27,8 +27,6 @@ def clean(x):
     return x[:-ord(x[-1])]
 
 def decrypt(encrypted_value):
-    # replace with your encrypted_value from sqlite3
-
     # Trim off the 'v10' that Chrome/ium prepends
     encrypted_value = encrypted_value[3:]
 
